@@ -4,12 +4,12 @@
 
 - [APICloud](http://www.apicloud.com) 是一个 xxxx 的工具，我们用 APICloud 一个月上线了一个项目。
 - APICloud 是一个用 web 技术写原生 APP 的工具
-- Js 接口封装不太友好
+- JS 接口封装不太友好
 - 官方仍然建议使用 jQuery + 模版引擎的方式开发，显得有点点与主流 web 技术脱节
 - 没有 d.ts，不兼容 [TypeScript](http://www.typescriptlang.org)
 - 于是打算开发一套 APICloud 全家桶，用于快速开发 APICloud 项目
 - 代码还没写一句，决定这次先写文档
-- 以下是对该项目的一个规划，看看就好
+- 以下是对该项目的一个规划，先看看就好
 
 ## 目录
 
@@ -25,15 +25,14 @@
   - 路由封装
   - frame 封装
   - 运行时可更新
-    `
 
-- [工具](./docs/Tools.md)
+* [工具](./docs/Tools.md)
 
   - 远程 devtool 工具
   - 错误监控工具
   - 开发工具包
 
-- [项目模版](#template)
+* [项目模版](#template)
 
   - Preact
   - React
@@ -62,7 +61,7 @@ interface Config {
         w?: number | 'auto';
         h?: number | 'auto';
       };
-      // ... 省略`api.openFrame()` 更多参数]
+      // ... 省略`api.openFrame()` 更多参数
     }[];
   }[];
 }
@@ -82,7 +81,7 @@ export const config: Config = {
 };
 ```
 
-文档
+相关文档
 
 [api.openFrame](https://docs.apicloud.com/Client-API/api#27)
 
